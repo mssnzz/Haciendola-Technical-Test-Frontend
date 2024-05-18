@@ -18,7 +18,7 @@ export default function Home() {
         </h1>
         <p className="text-lg mb-4">Manuel Sanchez.</p>
         <p className="text-lg">¡Disfruta tu estancia!</p>
-        <Link href={"/login"}>
+        <Link href={"/authentication/login"}>
           <Button>Iniciar sesión</Button>
         </Link>
       </div>
